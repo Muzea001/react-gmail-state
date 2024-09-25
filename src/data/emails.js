@@ -1,4 +1,4 @@
-export default [
+ const emailsData = [
   {
     id: 1,
     sender: `Zoom`,
@@ -7,7 +7,7 @@ export default [
     read: true
   },
   {
-    id: 2,
+    id: 2,  
     sender: `Zoom`,
     title: `Sean Davison has joined your Personal Meeting Room`,
     starred: false,
@@ -35,3 +35,5 @@ export default [
     read: false
   }
 ]
+
+export default emailsData;
